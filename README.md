@@ -1,4 +1,4 @@
-# spring-demo
+# spring-demo1
 How to let Azure DevOps deploy a Spring Boot application to Azure Kubernetes Service
 
 ![alt text](process.png "Deploy a Spring Boot application to Azure Kubernetes Service")
