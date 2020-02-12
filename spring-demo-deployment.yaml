@@ -6,11 +6,11 @@ spec:
   replicas: 1
   selector:
     matchLabels:
-      app: test-server
+      app: spring-demo
   template:
     metadata:
       labels:
-        app: test-server
+        app: spring-demo
     spec:
       containers:
         - name: spring-demo
@@ -31,4 +31,4 @@ spec:
       targetPort: http-port
       protocol: TCP
   selector:
-    app: test-server
+    app: spring-demo
