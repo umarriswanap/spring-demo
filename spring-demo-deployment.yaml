@@ -13,8 +13,8 @@ spec:
         app: test-server
     spec:
       containers:
-        - name: test-server
-          image: _umarriswanap.spring-demo:latest
+        - name: spring-demo
+          image: cicdprojectacr.azurecr.io/spring-demo:latest
           imagePullPolicy: "Always"
           ports:
             - name: http-port
