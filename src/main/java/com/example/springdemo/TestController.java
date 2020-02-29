@@ -12,6 +12,6 @@ public class TestController {
     @RequestMapping(method = RequestMethod.GET, produces = "application/json")
     public ResponseEntity<?> getTest()
     {
-        return new ResponseEntity<>("{\"message\":\"App running!\"}", HttpStatus.OK);
+        return new ResponseEntity<>("{\"message\":\"It's working cool!!!\"}", HttpStatus.OK);
     }
 }
