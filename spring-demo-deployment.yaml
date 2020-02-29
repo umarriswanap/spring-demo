@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: spring-demo
-          image: cicdprojectacr.azurecr.io/spring-demo:latest
+          image: cicdprojectacr.azurecr.io/spring-demo:$(Release.Artifacts._umarriswanap_spring-demo.BuildId)
           imagePullPolicy: "Always"
           ports:
             - name: http-port
